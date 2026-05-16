@@ -1,0 +1,17 @@
+@startuml
+
+class Main {
+  + main(String[] args) : void
+}
+
+class ClonadorImagenes {
+
+  - imagen : File
+
+  + ClonadorImagenes(String imagen)
+  + copiar() : void
+}
+
+Main --> ClonadorImagenes : crea y usa
+
+@enduml

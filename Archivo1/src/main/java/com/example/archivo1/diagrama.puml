@@ -1,0 +1,14 @@
+@startuml
+
+class EditorNotas {
+  - File nombreArchivo
+
+  + EditorNotas(String nombreArchivo)
+  + guardar(String texto) : void
+  + cargar() : String
+  + agregar(String texto) : void
+  + editar(String nuevoTexto) : void
+}
+
+@enduml
+@enduml

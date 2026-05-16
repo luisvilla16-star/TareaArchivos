@@ -1,0 +1,16 @@
+@startuml
+
+class EstadisticasTexto {
+
+  - nombreArchivo : File
+
+  + EstadisticasTexto(String nombreArchivo)
+  + estadisticas() : String
+
+}
+
+@enduml
+
+
+
+@enduml

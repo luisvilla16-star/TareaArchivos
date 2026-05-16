@@ -1,0 +1,13 @@
+@startuml
+
+class VisualizadorCVS {
+
+  - nombreArchivo : File
+
+  + VisualizadorCVS(String nombreArchivo)
+  + mostrarCSV() : void
+
+}
+
+@enduml
+@enduml

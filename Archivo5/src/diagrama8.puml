@@ -1,0 +1,18 @@
+@startuml
+
+class Main {
+  + main(String[] args) : void
+}
+
+class EncriptadorXOR {
+
+  - archivo : File
+  - clave : int = 123
+
+  + EncriptadorXOR(String archivo)
+  + mascara() : void
+}
+
+Main --> EncriptadorXOR : crea y usa
+
+@enduml
